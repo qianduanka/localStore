@@ -1,6 +1,6 @@
 ## 安装
 ```
-npm install -S localStore
+npm install -S @qdk/localstore
 ```
 
 ## 描述
@@ -136,17 +136,20 @@ sesstionStore.entries().forEach(item=> {
 // ['data', { list: [{a: 1}, {a: 2}, {a: 3}], version: '1.0.0' }]
 ```
 
+## 微信号
+联系作者：qianduanka
 
 
 ## 前端咖
+![公众号](https://raw.githubusercontent.com/qianduanka/localStore/main/assets/images/qianduanka-gongzhonghao.jpg)
 
-![公众号](./assets/images/qianduanka-gongzhonghao.jpg)
 公众号
 
-![公众号](./assets/images/qianduanka-xiaochengxu.jpg)
+![公众号](https://github.com/qianduanka/localStore/raw/main/assets/images/qianduanka-xiaochengxu.jpg)
+
 小程序
 
 ## 支持
-![打赏](./assets/images/wx.png)
+![打赏](https://github.com/qianduanka/localStore/raw/main/assets/images/wx.png)
 
-![打赏](./assets/images/zfb.png)
+![打赏](https://github.com/qianduanka/localStore/raw/main/assets/images/zfb.png)
