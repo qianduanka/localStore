@@ -1,0 +1,30 @@
+{
+  "name": "localstore",
+  "version": "1.0.0",
+  "description": "本地长期存储、本地会话期间存储，对原生方法的操作改进，创建了localStore、sessionStore组件库",
+  "keywords": [
+    "localStore",
+    "sessionStore",
+    "localStorage",
+    "sessionStorage"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.mjs"
+  },
+  "author": "qianduanka",
+  "homepage": "https://www.qianduanka.com",
+  "bugs": "https://github.com/qianduanka/localStore/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianduanka/localStore.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/plugin-transform-runtime": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-terser": "^0.4.4"
+  }
+}
