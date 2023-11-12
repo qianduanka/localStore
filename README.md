@@ -1,8 +1,3 @@
-## 安装
-```
-npm install -S @qdk/localstore
-```
-
 ## 描述
 localStorage 本地数据长期存储，不会因为浏览器关闭而清空数据。
 sessionStorage 当前页面会话期间有效，当页面窗口关闭时，存储在sessionStorage的数据将被清空。
@@ -10,6 +5,16 @@ sessionStorage 当前页面会话期间有效，当页面窗口关闭时，存�
 localStorage 、sessionStorage 键值对都是以字符串的形式存储，如果是其他类型将会自动转换为字符串类型的数据存储。
 
 根据上面的特性，创建了localStore库，键可以是字符串，值可以是任何类型。支持方法有设置、读取、删除、清空、遍历键值对。
+
+## 安装
+```
+npm install -S @qdk/localstore
+```
+
+## 引用
+```javascript
+import { localStore, sesstionStore } from '@qdk/localstore';
+```
 
 
 ## 例子
@@ -141,15 +146,19 @@ sesstionStore.entries().forEach(item=> {
 
 
 ## 前端咖
+
+### 公众号
 ![公众号](https://raw.githubusercontent.com/qianduanka/localStore/main/assets/images/qianduanka-gongzhonghao.jpg)
 
-公众号
-
+### 小程序
 ![公众号](https://github.com/qianduanka/localStore/raw/main/assets/images/qianduanka-xiaochengxu.jpg)
 
-小程序
+
 
 ## 支持
+
+### 微信
 ![打赏](https://github.com/qianduanka/localStore/raw/main/assets/images/wx.png)
 
+### 支付宝
 ![打赏](https://github.com/qianduanka/localStore/raw/main/assets/images/zfb.png)
