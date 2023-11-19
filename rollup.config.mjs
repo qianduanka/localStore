@@ -5,10 +5,15 @@ export default {
   input: './index.js',
   output: [
     {
-      dir: './dist',
-      name: 'index',
-      format: 'umd',
+      file: './dist/index.min.js',
+      name: 'index.min',
+      format: 'umd'
     },
+    {
+      file: './dist/index.es.js',
+      name: 'index.es',
+      format: 'es'
+    }
   ],
-  plugins: [babel({ babelHelpers: 'bundled', exclude: 'json3.js' }), terser()],
+  plugins: [babel({ babelHelpers: 'bundled' }), terser()],
 };
